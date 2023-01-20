@@ -1,0 +1,7 @@
+$joker: #8F0E3D;
+
+@mixin lg {
+    @media (min-width: 390px) {
+      @content;
+    }
+  }
